@@ -85,5 +85,9 @@ def form_data_func():
     data=request.form.to_dict(flat=False)
     print(data,type(data))
     return data
+
+print("Hello")
+
 if __name__=="__main__":
     app.run(debug=True,port=5000)
+
